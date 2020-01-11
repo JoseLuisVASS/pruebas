@@ -1,0 +1,5 @@
+** Eliminar un archivo del repositorio **
+rm nombreArchivo
+git rm nombmreArchivo
+git commit -m 'se elimino el archivo'
+git push origin master
