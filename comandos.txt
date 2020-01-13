@@ -3,3 +3,17 @@ rm nombreArchivo
 git rm nombmreArchivo
 git commit -m 'se elimino el archivo'
 git push origin master
+
+
+**viendo los commits**
+git log --oneline
+
+
+**Creando ramas **
+git branch nombre_de_rama 
+
+**para eliminar rama **
+git branch -d nombre_rama
+
+**para hacer merge con otra rama**
+git merge nombre_de_rama_para_mergear
